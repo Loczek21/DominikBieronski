@@ -22,6 +22,6 @@ function checkPasswordStrength() {
     } else if (strength >= 2) {
         passwordImage.src = "haslo-srednie.jpg";
     } else {
-        passwordImage.src = "haslo-slabo.jpg";
+        passwordImage.src = "haslo-slabe.jpg";
     }
 }
