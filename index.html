@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprawdź Siłę Hasła</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sprawdź Siłę Hasła</h1>
+        <label for="password">Podaj hasło:</label>
+        <input type="password" id="password" oninput="checkPasswordStrength()">
+        <div id="strength-meter"></div>
+        <img src="haslo.jpg" alt="Obrazek hasła" id="password-image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
