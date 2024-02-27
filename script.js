@@ -18,7 +18,7 @@ function checkPasswordStrength() {
     strengthMeter.innerHTML = "Siła hasła: " + strength + "/4";
   
     if (strength === 4) {
-        passwordImage.src = "haslo-silne.jpg";
+        passwordImage.src = "haslo-silne.png";
     } else if (strength >= 2) {
         passwordImage.src = "haslo-srednie.jpg";
     } else {
